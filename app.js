@@ -14,7 +14,7 @@ moreShuffles();
 finalShuffle();
 
 function createNewDeck() {
-  // можно будет изменять может когда нить на другое кол-во карт в колоде 36, 52
+  
   for (let j = 0; j < cardsRanks.length; j++) {
     for (let i = 0; i < cardsSuit.length; i++) {
       let card = cardsRanks[j] + "" + cardsSuit[i];
